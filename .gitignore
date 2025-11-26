@@ -1,0 +1,13 @@
+# Environment variables
+.env
+config.js
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,14 +1,4 @@
-
-  const firebaseConfig = {
-    apiKey: "AIzaSyCk2zvghyx0D6ksfbvtmQK1c6EmhRHr0UY",
-    authDomain: "social-media-website-865f5.firebaseapp.com",
-    projectId: "social-media-website-865f5",
-    storageBucket: "social-media-website-865f5.firebasestorage.app",
-    messagingSenderId: "114991280382",
-    appId: "1:114991280382:web:cd3950c7fc247a49c4b5af",
-    measurementId: "G-PFSRWVR5ND"
-  };
-
+// firebaseConfig is loaded from config.js (gitignored)
   firebase.initializeApp(firebaseConfig);
   const auth = firebase.auth();
   const db = firebase.firestore();
